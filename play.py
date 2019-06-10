@@ -118,4 +118,4 @@ if __name__ == '__main__':
             print_scores(normal,'Method 1 (Question search)')
             withoption = scores_with_options(question,options)
             print_scores(withoption,'Method 2 (Question and options search)')
-bot.login(process.env.BOT_TOKEN)
+client.run(os.environ['Token'])
