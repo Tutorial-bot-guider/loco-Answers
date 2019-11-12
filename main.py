@@ -9,7 +9,7 @@ import multiprocessing
 import threading
 import concurrent
 
-BOT_OWNER_ROLE = 'Ritesh' # change to what you need
+BOT_OWNER_ROLE = 'AWM' # change to what you need
 
 
 
@@ -257,7 +257,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NjMzMzIyNjYxMTYxNzMwMDQ5.Xa3XtQ.W12HS0PufGGLOHaIP28oBZ4dK50'))
+    loop.create_task(bot.start('NjQxNzg3NTc1MDAyMDcxMDkw.XcrGsw.D-W6t4bJlQAp-0Q4z-Lzy4n04vg'))
     loop.run_forever()
 
 
@@ -266,7 +266,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('NDg5NzI0OTk4ODMxOTY0MTcw.XZoCmA.Cb0xvl5RhR7Olz8Wu9xE8vmaFIA',
+    loop.create_task(selfbot.start('NjQxNzg3NTc1MDAyMDcxMDkw.XcjvMQ.DqVccbMJHmdjXhEYf1BaVpVTLCQ',
                                    bot=False))
     loop.run_forever()
 
