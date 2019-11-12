@@ -15,9 +15,7 @@ BOT_OWNER_ROLE = 'AWM' # change to what you need
 
 
 oot_channel_id_list = [
-635866947401154583
-635867047074594828
-635867241883369482,
+"643316408511365121" #loco
 ]
 
 
