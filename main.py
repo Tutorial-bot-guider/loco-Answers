@@ -15,10 +15,12 @@ BOT_OWNER_ROLE = 'AWM' # change to what you need
 
 
 oot_channel_id_list = [
-"643316408511365121"
-"643316408511365121"
-"643316408511365121",
+
+643316408511365121,
+
 ]
+
+
 
 
 answer_pattern = re.compile(r'(not|n)?([1-3]{1})(\?)?(cnf)?(\?)?$', re.IGNORECASE)
